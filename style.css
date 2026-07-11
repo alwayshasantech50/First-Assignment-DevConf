@@ -206,3 +206,54 @@ nav ul li a {
     color: rgb(129, 148, 189);
 }
 
+/* Why Attend css */
+
+.why-attend {
+    padding: 80px 20px;
+    background-color: #f8f9fc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    color: gray;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.benefit-card {
+    background-color: rgb(234, 234, 235);
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+.benefit-card h3 {
+    margin-bottom: 15px;
+}
+
+.benefit-card p {
+    color: #363535;
+    line-height: 1.6;
+}
