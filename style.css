@@ -313,3 +313,86 @@ nav ul li a {
 .footer-policy a:hover {
     color:white;
 }
+
+
+/* Hovering Effect */
+/* My Fav Part */
+
+img {
+    transition: 0.4s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+/* social icons Hover */
+
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px) scale(1.2);
+}
+
+.fa-facebook {
+    color: #0853b6;
+}
+
+.fa-instagram {
+    color: #e7165b;
+}
+
+.fa-twitter {
+    color: #11c511;
+}
+
+/* Benefits card Hover */
+
+.benefit-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Price card Hover */
+
+.price-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.price-card:hover {
+    transform: translateY(-10px);
+}
+
+.pro-card:hover {
+    transform: translateY(-22px) scale(1.03);
+}
+
+/* Button Hover */
+
+.common-btn,
+.outline-btn {
+    transition: all 0.3s ease;
+}
+
+.common-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.outline-btn:hover {
+    background-color: rgb(12, 15, 218);
+    color: white;
+}
